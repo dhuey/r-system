@@ -8,4 +8,4 @@ const setup = () => {
   alertStuff();
 }
 
-export default setup
+setup();
