@@ -1,3 +1,0 @@
-window.alertThing = () => {
-  alert("hello!")
-}
