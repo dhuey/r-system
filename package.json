@@ -1,0 +1,23 @@
+{
+  "name": "rsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild ./src/index.js --bundle --outfile=./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhuey/r-system.git"
+  },
+  "author": "Dalton Huey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhuey/r-system/issues"
+  },
+  "homepage": "https://github.com/dhuey/r-system#readme",
+  "dependencies": {
+    "esbuild": "^0.14.51"
+  }
+}
